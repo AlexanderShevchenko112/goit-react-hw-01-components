@@ -15,6 +15,7 @@ const FriendList = ({ friends }) => {
     </ul>
   );
 };
+
 export default FriendList;
 FriendListItem.propTypes = {
   friends: PropTypes.arrayOf(
