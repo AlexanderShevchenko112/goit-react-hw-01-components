@@ -1,0 +1,56 @@
+.table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.type {
+  width: 150px;
+  border: 1px solid black;
+  background-color: aliceblue;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.amount {
+  width: 130px;
+  border: 1px solid black;
+  background-color: aliceblue;
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.currency {
+  width: 130px;
+  border: 1px solid black;
+  background-color: aliceblue;
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tableHead {
+  display: flex;
+  justify-content: center;
+}
+.tableHeadText {
+  height: 30px;
+  width: 196px;
+  border: 1px solid black;
+  background-color: rgb(92, 76, 233);
+  color: #ffff;
+}
+.tableBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableRow {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}

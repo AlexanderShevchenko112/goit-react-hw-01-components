@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  gap: 10px;
+  background-color: beige;
+  width: 300px;
+  align-items: center;
+  padding-left: 40px;
+  border: 1px solid black;
+}
+.statusOn {
+  display: block;
+  background-color: green;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.statusOff {
+  display: block;
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}

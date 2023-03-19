@@ -1,0 +1,50 @@
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 500px;
+  background-color: aliceblue;
+  padding-top: 30px;
+}
+.userPic {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.userName {
+  text-align: center;
+}
+.userTag {
+  text-align: center;
+}
+.userLocation {
+  text-align: center;
+}
+.bottomPart {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.stat {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(196, 183, 183);
+  background-color: beige;
+}
+
+.descText {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.descNumber {
+  padding-bottom: 20px;
+  color: black;
+  margin: 0;
+}
