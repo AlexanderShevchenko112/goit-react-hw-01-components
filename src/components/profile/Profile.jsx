@@ -31,7 +31,6 @@ Profile.propTypes = {
   user: PropTypes.shape({
     avatar: PropTypes.string.isRequired,
     username: PropTypes.string.isRequired,
-    stats: PropTypes.number.isRequired,
     tag: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
     stats: PropTypes.shape({
@@ -41,3 +40,4 @@ Profile.propTypes = {
     }).isRequired,
   }).isRequired,
 };
+
